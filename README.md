@@ -3,7 +3,7 @@
 [![NPM](https://img.shields.io/npm/v/@paymoapp/real-idle)](https://www.npmjs.com/package/@paymoapp/real-idle)
 [![Typescript](https://img.shields.io/npm/types/@paymoapp/real-idle)](https://www.npmjs.com/package/@paymoapp/real-idle)
 [![N-API](https://raw.githubusercontent.com/nodejs/abi-stable-node/doc/assets/Node-API%20v6%20Badge.svg)](https://github.com/nodejs/node-addon-api)
-[![License](https://img.shields.io/github/license/paymoapp/node-real-idle)](https://www.gnu.org/licenses/gpl-3.0.txt)
+[![License](https://img.shields.io/github/license/paymo-org/node-real-idle)](https://raw.githubusercontent.com/paymo-org/node-real-idle/refs/heads/master/LICENSE)
 
 NodeJS library using native modules to detect the real idle state of the system.
 
