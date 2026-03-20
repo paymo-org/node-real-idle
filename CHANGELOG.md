@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.2](https://github.com/paymo-org/node-real-idle/compare/v1.1.1...v1.1.2) (2026-03-20)
+
+
+### Documentation
+
+* Updated repository URL ([e18cfe1](https://github.com/paymo-org/node-real-idle/commit/e18cfe1b0c62095715b4f0700cad96a6d5711e26))
+
+
+### Build/CI
+
+* Updated XCode tools path ([a489110](https://github.com/paymo-org/node-real-idle/commit/a489110ffc4ec804ecf78c37b5fdc41104521a49))
+
 ### [1.1.1](https://github.com/paymoapp/node-real-idle/compare/v1.1.0...v1.1.1) (2024-05-23)
 
 
