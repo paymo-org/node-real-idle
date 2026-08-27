@@ -1,7 +1,13 @@
 # Changelog
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.2.0](https://github.com/paymo-org/node-real-idle/compare/v1.1.2...v1.2.0) (2026-08-27)
+
+### Features
+
+* Added support for arm arch for all supported platforms, enabled build provenance ([4c40214](https://github.com/paymo-org/node-real-idle/commit/4c402149ec5ccd3e4fae5f856216007163da3d0a))
+* Updated package to supply both CJS and ESM builds, switched to prebuildify, and modernized tooling ([f5f09a3](https://github.com/paymo-org/node-real-idle/commit/f5f09a38cfbff463ab1827fcfec7c5eaf4fc2a4f))
 ### [1.1.2](https://github.com/paymo-org/node-real-idle/compare/v1.1.1...v1.1.2) (2026-03-20)
 
 
