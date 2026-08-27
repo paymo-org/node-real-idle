@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.2.1](https://github.com/paymo-org/node-real-idle/compare/v1.2.0...v1.2.1) (2026-08-27)
+
+### Build/CI
+
+* Added install script to prevent automatic rebuilds ([31b2b06](https://github.com/paymo-org/node-real-idle/commit/31b2b061af1a6a735f4710819b8e326679109cf9))
 ## [1.2.0](https://github.com/paymo-org/node-real-idle/compare/v1.1.2...v1.2.0) (2026-08-27)
 
 ### Features
