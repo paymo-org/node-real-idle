@@ -6,6 +6,7 @@
   "main": "./dist/index.cjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node -e \"\"",
     "demo": "electron demo/electron.mjs --no-sandbox",
     "lint": "eslint src",
     "lint:fix": "eslint --fix src",
