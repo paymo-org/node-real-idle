@@ -1,12 +1,5 @@
-import { Addon, IdleState } from './types';
-
-const SUPPORTED_PLATFORMS = ['win32', 'linux', 'darwin'];
-
-let addon: Addon | null = null;
-
-if (SUPPORTED_PLATFORMS.includes(process.platform)) {
-	addon = require('../build/Release/PaymoRealIdle.node'); // eslint-disable-line import/no-dynamic-require
-}
+import addon from './addon.js';
+import { IdleState } from './types.js';
 
 export { IdleState };
 

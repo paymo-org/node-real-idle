@@ -16,7 +16,7 @@
 						"-ldbus-1"
 					],
 					"cflags": [
-						"<!(pkg-config --cflags dbus-1)"
+						"<!@(pkg-config --cflags dbus-1)"
 					]
 				}],
 				["OS=='mac'", {
@@ -51,7 +51,7 @@
 			],
 			"defines": [
 				"NAPI_DISABLE_CPP_EXCEPTIONS",
-				"NAPI_VERSION=<(napi_build_version)"
+				"NAPI_VERSION=6"
 			]
 		}
 	]

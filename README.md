@@ -42,21 +42,23 @@ This is done by requesting the IOPM Assertions (on Mac) and using the IsInhibite
 npm install --save @paymoapp/real-idle
 ```
 
+The library requires NodeJS 20 or newer and ships both ESM and CommonJS builds, so you can `import` it or `require()` it.
+
 #### Native addon
 
 This project uses NodeJS Native Addons to function, so you can use this library in any NodeJS or Electron project. There won't be any problem with bundling and code signing.
 
-The project uses [prebuild](https://github.com/prebuild/prebuild) to supply prebuilt libraries.
+The project uses [prebuildify](https://github.com/prebuild/prebuildify) to supply prebuilt libraries. The prebuilt binaries for all supported platforms are bundled in the npm package and the correct one is picked at runtime by [node-gyp-build](https://github.com/prebuild/node-gyp-build), so there's no download or compilation step during installation.
 
 The project uses Node-API version 6. You can check [this table](https://nodejs.org/api/n-api.html#node-api-version-matrix) to see which node versions are supported.
 
-If there's a compliant prebuilt binary, it will be downloaded during installation, or it will be built. You can also rebuild it anytime by running `npm run build:gyp`.
+If you want to build the native addon from source, you can run `npm run build` (which builds both the native addon and the TypeScript sources) — a local build in `build/Release` takes precedence over the bundled prebuilds.
 
 The library has native addons for Windows, MacOS and Linux.
 
 #### Example
 
-You can run a demo application by calling `npm run demo` and you can tweak the parameters in the `demo/electron.js` file. For the demo, it is required to start an electron application since on MacOS a GUI session is required to access some functions (although you might get it working in a console application as well).
+You can run a demo application by calling `npm run demo` and you can tweak the parameters in the `demo/electron.mjs` file. For the demo, it is required to start an electron application since on MacOS a GUI session is required to access some functions (although you might get it working in a console application as well).
 
 ```ts
 import RealIdle from '@paymoapp/real-idle';

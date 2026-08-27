@@ -1,5 +1,5 @@
-const { app, BrowserWindow } = require('electron');
-const RealIdle = require('../dist').default;
+import { app, BrowserWindow } from 'electron';
+import RealIdle from '@paymoapp/real-idle';
 
 const POLL_INTERVAL = 10;
 const IDLE_THRESHOLD = 20;
