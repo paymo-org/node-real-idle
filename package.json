@@ -12,6 +12,7 @@
     "typecheck": "tsc --noEmit",
     "clean": "hereby clean",
     "build": "hereby build",
+    "build:ts": "hereby build:ts",
     "prebuildify": "hereby prebuildify",
     "generate:readme-toc": "markdown-toc -i --bullets=\"-\" --maxdepth=4 README.md",
     "release": "commit-and-tag-version",
